@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+}
+
+.student-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.initials {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #003366;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.id {
+    font-size: 14px;
+}
+
+.menu h3 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 10px 0;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover {
+    background-color: #00264d;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.student-details {
+    margin-bottom: 20px;
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.announcement {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.announcement img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.announcement h4 {
+    margin-top: 10px;
+}
+
+.announcement p {
+    margin: 5px 0;
+}
